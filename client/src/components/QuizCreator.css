@@ -1,0 +1,110 @@
+
+.quiz-creator-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.quiz-creator-container h2 {
+  text-align: center;
+  color: #333;
+  font-family: "Arial", sans-serif;
+  margin-bottom: 20px;
+}
+
+
+.input-field,
+.option-input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+
+.option-input {
+  margin-bottom: 5px;
+}
+
+
+button {
+  padding: 12px 25px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+
+.add-option-btn {
+  background-color: #007bff;
+  width: auto;
+  margin: 5px 0;
+}
+
+.add-option-btn:hover {
+  background-color: #0056b3;
+}
+
+.add-question-btn {
+  background-color: #f39c12;
+  width: auto;
+  margin: 15px 0;
+}
+
+.add-question-btn:hover {
+  background-color: #e67e22;
+}
+
+.submit-btn {
+  background-color: #3498db;
+}
+
+.submit-btn:hover {
+  background-color: #2980b9;
+}
+
+.question-container {
+  margin-bottom: 20px;
+}
+
+
+.question-text {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+.options-container {
+  margin-top: 10px;
+}
+
+
+input[type="text"] {
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin: 5px 0;
+  border-radius: 5px;
+}
